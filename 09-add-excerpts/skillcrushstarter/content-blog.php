@@ -7,7 +7,7 @@
 			<h2 class="entry-title"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
 		</header>
 		<div class="entry-summary">
-			<?php the_excerpt() ?>
+			<?php the_excerpt(); ?>
 			<a href="<?php the_permalink() ?>" class="read-more">Read More <span>&raquo;<span></a>
 		</div>
 		<footer class="entry-footer">
@@ -15,9 +15,9 @@
 				<span class="entry-terms comments author">
 					Written by <?php the_author(); ?>
 					/
-					Posted in <?php the_category(', ') ?>
+					Posted in <?php the_category(', '); ?>
 					/
-					<?php echo get_comments_number() ?> comments
+					<?php echo get_comments_number(); ?> comments
 				</span>
 			</div>
 		</footer>
