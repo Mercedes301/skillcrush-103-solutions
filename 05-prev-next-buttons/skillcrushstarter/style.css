@@ -184,10 +184,10 @@ body {
 	float: right;
 	padding-top: 22px;
 }
-.page-header .top-nav .menu ul li {
+.page-header .top-nav ul li {
 	display: inline;
 }
-.page-header .top-nav .menu ul li a {
+.page-header .top-nav ul li a {
 	color: inherit;
 	font-size: 14px;
 	line-height: normal;
