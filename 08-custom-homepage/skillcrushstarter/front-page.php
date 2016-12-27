@@ -16,6 +16,12 @@ get_header(); ?>
 				<h1><?php the_title(); ?></h1>
 				<?php the_content(); ?>
 				<a href="<?php echo site_url('/blog/'); ?>" class="btn">View My Blog</a>
+				<div class="social-btns">
+					<a href="" class="soc-icon tw"></a>
+					<a href="" class="soc-icon fb"></a>
+					<a href="" class="soc-icon ln"></a>
+					<a href="" class="soc-icon db"></a>
+				</div>
 			<?php endwhile; ?>
 		</div>
 	</div>
