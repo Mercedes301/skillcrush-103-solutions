@@ -1,5 +1,5 @@
 /*
-Theme Name: Skillcrush Starter Theme Blog Page Excerpts Challenge
+Theme Name: Skillcrush Starter Theme Add Post Thumbnails Challenge
 Author: the Skillcrush team
 Author URI: http://skillcrush.com
 Description: This theme is for use in Skillcrush 103, Skillcrush 203 and the Skillcrush WordPress Developer Career Blueprint.
@@ -85,6 +85,12 @@ html[xmlns] .clearfix {
     height: 1%;
 }
 /** end CSS reset **/
+
+img{
+  width: 100%;
+  height: auto;
+  padding-bottom: 1em;
+}
 
 /** theme styles start here! **/
 /* FONTS */
