@@ -86,12 +86,6 @@ html[xmlns] .clearfix {
 }
 /** end CSS reset **/
 
-img{
-  width: 100%;
-  height: auto;
-  padding-bottom: 1em;
-}
-
 /** theme styles start here! **/
 /* FONTS */
 @font-face {
@@ -157,6 +151,10 @@ body {
 	color: #3b3b3b;
 	font: 17px/1.65 'OpenSans', Arial, sans-serif;
 	letter-spacing: -0.01em;
+}
+figure, img{
+  width: 100%;
+  height: auto;
 }
 #page {
 	width: 960px;
